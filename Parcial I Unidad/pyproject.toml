@@ -1,0 +1,21 @@
+[project]
+name = "actividad2"
+version = "0.1.0"
+description = "trabajo de reconocimiento de minerales en 15 clases"
+readme = "README.md"
+authors = [
+    { name = "Gutierrez Bill", email = "darckneck@hotmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "jupyter>=1.1.1",
+    "nbconvert>=7.17.2",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+actividad2 = "actividad2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
